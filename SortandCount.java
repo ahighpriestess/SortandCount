@@ -32,7 +32,7 @@ public class SortandCount {
 				System.out.println(e.toString());
 			}
 
-			String[] theText = text.split("[^A-Za-z0-9\s+]");
+			String[] theText = text.split("[^A-Za-z0-9]");
 			LinkedList<String> temp = new LinkedList<String>();
 
 			for (int i = 0; i < theText.length; i++) {
